@@ -1,1 +1,1 @@
-# Kody Analiza Danych w czasie rzeczywistym
+# Kody Modelowanie dla biznesu
