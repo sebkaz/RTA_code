@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  test_hello:
+    build: .
+    ports:
+      - 5050:5050 

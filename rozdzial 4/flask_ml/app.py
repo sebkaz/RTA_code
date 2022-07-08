@@ -17,5 +17,5 @@ def get_prediction():
     predicted_class = int(model.predict(features))
     return jsonify(features=features,
     predicted_class=predicted_class)
-if __name__ = '__main__':
+if __name__ == '__main__':
     app.run(host='0.0.0.0')
