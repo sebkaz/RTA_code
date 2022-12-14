@@ -14,8 +14,8 @@ Ponieważ użytkowanie danych oznacza nie tylko ich wytwarzanie, lecz także ich
 Pandasowe ramki danych są jedną znajczęściej wykorzystywanych form przechowywania informacji, dlatego określono, jakie narzędzia można wykorzystać do dołączenia metadanych, tak by inne programy mogły przetwarzać kompletny zestaw informacji. 
 Następnym elementem jest wskazanie historycznego i zarazem biznesowego podejścia do modeli przetwarzania danych. 
 Ich definicja była ściśle związana z biznesowymi oczekiwaniami. 
-Podstawą była realizacja głównych zadań, które realizowane są przez systemy OLTP (ang. \it{On-Line Transaction Processing}).
-Biznesowa potrzeba analizy gromadzonych danych i wyciągania ukrytych informacji oraz odpowiedzi na coraz bardziej złożone zapytania wymusiła na technologii wprowadzenie rozwiązań typu hurtownie danych, które przetwarzają dane z wykorzystaniem modelu OLAP (ang. \it{On-Line Analytic Processing}). 
+Podstawą była realizacja głównych zadań, które realizowane są przez systemy OLTP (ang. _On-Line Transaction Processing_).
+Biznesowa potrzeba analizy gromadzonych danych i wyciągania ukrytych informacji oraz odpowiedzi na coraz bardziej złożone zapytania wymusiła na technologii wprowadzenie rozwiązań typu hurtownie danych, które przetwarzają dane z wykorzystaniem modelu OLAP (ang. _On-Line Analytic Processing_). 
 Coraz większe zaangażowanie statystyki i analityków doprowadziło do tworzenia systemów pozwalających wykonywać operacje związane z data mining i coraz szerszym zakresem realizacji zadań AI czy uczenia maszynowego.
 Zrozumienie obiektowego myślenia o danych uzupełnione zostało o budowę prostych klas realizujących podstawowe algorytmy uczenia sieci neuronowych.
 Nie ma lepszego sposobu na zrozumienie działania algorytmu niż napisanie jego własnej wersji. 
