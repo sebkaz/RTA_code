@@ -8,4 +8,4 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 ENTRYPOINT ["python3"]
-CMD ["app1.py"]
+CMD ["app.py"]
