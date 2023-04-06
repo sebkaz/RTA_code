@@ -6,7 +6,8 @@
 
 [Kup książkę](https://sklep.sgh.waw.pl/pl/products/modelowanie-dla-biznesu-analityka-w-czasie-rzeczywistym-narzedzia-informatyczne-i-biznesowe-3620.html?query_id=1)
 
-W~niniejszej monografii podjęto wiele zagadnień związanych z przetwarzaniem danych strumieniowych oraz opisano narzędzia wykorzystywane w tym celu. 
+
+W niniejszej monografii podjęto wiele zagadnień związanych z przetwarzaniem danych strumieniowych oraz opisano narzędzia wykorzystywane w tym celu. 
 Rozdział 1 przedstawia dane, zarówno ustrukturyzowane, jak i nieustrukturyzowane, poprzez ich różne obiektowe reprezentacje oraz metody ich programowania w języku Python: od podstawowych pythonowych list przez tablice Numpy, Pandasowe ramki danych aż po tensory realizowane przez biblioteki związane z uczeniem głębokim. 
 W przypadku danych nieustrukturyzowanych ukazano podstawy przetwarzania zdjęć oraz formatu JSON. 
 Ze względu na wykorzystanie oprogramowania Apache Spark przedstawiono również podstawy przetwarzania obiektów RDD i sparkowych ramek danych. 
@@ -37,15 +38,20 @@ Wspomoże również rozwiązania informatyczne, jak również dostarczy wiele pr
 
 ## Spis treści
 
+
 1. Dane i modele ich przetwarzania
+
   1.1 Dane w Pythonie
   1.2 Źródła i przechowywanie danych
   1.3 Dane i metadane
   1.4 Modele przetwarzania danych
+  
     1.4.1 Model tradycyjny
     1.4.2 Model OLAP
     1.4.3 Data mining
+    
   1.5 Obiektowość Pythona a dane
+  
     1.5.1 Klasa 0 - pusta klasa
     1.5.2 Klasa 1 - rzut kością
     1.5.3 Klasa 2 - błądzenie losowe
