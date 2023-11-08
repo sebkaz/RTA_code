@@ -42,7 +42,7 @@ Nowy requirements.txt zawiera wersje bibliotek, które pozwalają uruchomić kod
 
 Aktualnie Apache Spark nie wymaga już ściągania katalogu `spark` - dlatego też biblioteka `findspark` również może zostać pominięta. 
 
-Aktualnie (w 2023 roku) zaktualizowałem wszystkie obrazy Dockerowe używane na zajęciach. Dzięki wykorzystaniu mechanizmów Docker Compose w jednym obrazie uruchamiany jest JupyterLab + Apache Spark + Apache Kafka + MongoDB. 
+Aktualnie (w 2023 roku) zaktualizowałem wszystkie obrazy Dockerowe używane na zajęciach. Dzięki wykorzystaniu mechanizmów Docker Compose w jednym obrazie uruchamiany jest JupyterLab + Apache Spark + Apache Kafka + MongoDB. Całość można znaleźć [Github repo Docker](https://github.com/sebkaz/jupyterlab-project/tree/main)
 
 Do innych zmian bibliotek open-source można zaliczyć:
 1. Biblioteka `Keras` (używana do sieci neuronowych) została zmieniona i wprowadzona bezpośrednio do biblioteki Tensorflow. 
