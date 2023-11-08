@@ -36,6 +36,22 @@ Rozdział kończący książkę prezentuje: kody wykorzystujące obiektowe włas
 Mam nadzieję, że książka będzie źródłem ciekawych informacji oraz nowego spojrzenia na pojęcie danych i ich przepływy w biznesie i życiu codziennym. 
 Wspomoże również rozwiązania informatyczne, jak również dostarczy wiele praktycznych rozwiązań w przetwarzaniu danych wsadowo i w czasie rzeczywistym.
 
+## Aktualizacja 
+
+Nowy requirements.txt zawiera wersje bibliotek, które pozwalają uruchomić kody z rozdziału 1 w środowisku Python3.11.  
+
+Aktualnie Apache Spark nie wymaga już ściągania katalogu `spark` - dlatego też biblioteka `findspark` również może zostać pominięta. 
+
+Aktualnie (w 2023 roku) zaktualizowałem wszystkie obrazy Dockerowe używane na zajęciach. Dzięki wykorzystaniu mechanizmów Docker Compose w jednym obrazie uruchamiany jest JupyterLab + Apache Spark + Apache Kafka + MongoDB. 
+
+Do innych zmian bibliotek open-source można zaliczyć:
+1. Biblioteka `Keras` (używana do sieci neuronowych) została zmieniona i wprowadzona bezpośrednio do biblioteki Tensorflow. 
+2. Biblioteka SQLAlchemy posiada już drugie wydanie, które całkowicie zmienia zastosowane metody.
+
+Zmiany te pokazują trudność jaka powstaje, gdy w środowiskach nie zdefiniuje się wersji pakietów do instalacji. 
+Rodzi to również pozostałe konsekwencje używania kodów bazujących na języku Python. Częste zmiany środowiska, częste zmiany pakietów, które instalujemy jako podstawowe, częste zmiany (o których trudno się dowiedzieć) bibliotek, które ukryte są w zależnościach dla pakietów głównych, prowdzą do częstych "awarii" naszych kodów. 
+
+<!--
 ## Spis treści
 
 
@@ -59,4 +75,4 @@ Wspomoże również rozwiązania informatyczne, jak również dostarczy wiele pr
     1.5.5 Obiektowość w pakiecie Scikit-Learn
     1.5.6 Potoki starujące przetwarzaniem danych
     1.5.7 Obiektowa sieć neuronowa
-  
+  -->
